@@ -82,7 +82,18 @@ $num3 = 90;
 
 //    8.	Write PHP script to calculate the monthly electricity bill according to these rules
  
-
+ $units=50;
+   if($units<=50) 
+   echo $units*2.50 .'<br>';
+   else if($units>250) 
+       echo $units*7.50 .'<br>';
+   else if($units>200) 
+    echo $units*6.20 .'<br>';
+    else if($units>100) 
+        echo $units*5 .'<br>';
+    else 
+        echo 'Wrong Entry'.'<br>';
+    
 
 // 9.	Write php script to check if a person is eligible to vote, minimum age required for voting is 18.
 
