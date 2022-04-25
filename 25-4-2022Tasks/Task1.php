@@ -36,7 +36,8 @@ $temp = 24;
     else if ($num1 == $num2)
     echo ( $num1 +  $num2) * 3 .'<br>';
 
-    // 4.	Write PHP to check if the sum of the two given numbers equals 30, if the condition is true the return their sum otherwise return false
+
+// 4.	Write PHP to check if the sum of the two given numbers equals 30, if the condition is true the return their sum otherwise return false
     $num1 = 20;
     $num2 = 30;
        if ( ($num1 + $num2)==30 )
@@ -63,9 +64,8 @@ $temp = 24;
        echo 'false'.'<br>';
 
 
-//        7.	Write PHP script to find the largest number between the three integers
-// Sample Input: [ 1, 5, 9 ]
-// Sample Output: 9
+// 7.	Write PHP script to find the largest number between the three integers
+
 $num1 = 40;
 $num2 = 50;
 $num3 = 90;
@@ -85,6 +85,7 @@ $num3 = 90;
 
 
 // 9.	Write php script to check if a person is eligible to vote, minimum age required for voting is 18.
+
 $age = 30;
 if ( $age >=18 )
    echo  'is  eligible to vote' .'<br>';
