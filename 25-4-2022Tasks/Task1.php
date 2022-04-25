@@ -131,15 +131,15 @@ $grade2 = 88;
 $grade3 =80;
 $grade4 = 99;
 $av = ($grade1 + $grade2+ $grade3 +$grade4)/4 ;
-if ( $av <60)
+if ( $av <=60)
 echo  'Grade :  F' .'<br>';
-else if ( $av<70 && $av >60 )
+else if ( $av<=70 && $av >=60 )
 echo 'Grade :  D'.'<br>';
-else if ( $av<80 && $av >70 )
+else if ( $av<=80 && $av >=70 )
 echo 'Grade : C'.'<br>';
-else if ( $av<90 && $av >80 )
+else if ( $av<=90 && $av >=80 )
 echo 'Grade : B'.'<br>';
-else if ( $av<100 && $av >90 )
+else if ( $av<=100 && $av >=90 )
 echo 'Grade : A'.'<br>';
 
 
