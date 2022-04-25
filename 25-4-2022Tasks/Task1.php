@@ -56,7 +56,7 @@ $temp = 24;
 
 
 
-    //    6.	Write a PHP script to check if the integer value is in the range of [20-50] inclusive.
+// 6.	Write a PHP script to check if the integer value is in the range of [20-50] inclusive.
        $num = 30;
        if ( $num>=20  &&  $num<=50)
           echo  'True' .'<br>';
